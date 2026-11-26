@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #10151a;
+  min-height: 100%;
+  font-family: "Courier New", monospace;
+}
+
+.frame {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 18px 12px 8px;
+  text-align: center;
+}
+
+canvas#game {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #7fa8d4;
+  border: 1px solid #3a4550;
+  border-radius: 6px;
+  cursor: crosshair;
+}
+
+.hint {
+  color: #9aa8b4;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  margin: 10px 0 0;
+}
